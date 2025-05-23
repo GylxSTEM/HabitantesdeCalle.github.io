@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conciencia Calle Bogotá</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.7;
+    }
+
+    .image-banner, .story img {
+      width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+      object-fit: cover;
+      max-height: 400px;
+    }
+
+    .story {
+      background-color: white;
+      border-left: 4px solid #007BFF;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      margin-bottom: 30px;
+    }
+
+    .story h3 {
+      margin-top: 0;
+    }
+
+    .donation-section {
+      background-color: #eaf4ff;
+      padding: 40px 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .donation-section p {
+      font-size: 1.2em;
+    }
+
+    .donate-button {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .donate-button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Conciencia Calle Bogotá</h1>
+    <p>Solidaridad y acción para transformar vidas</p>
+  </header>
+
+  <section>
+    <h2>La realidad en nuestras calles</h2>
+    <p>
+      Bogotá enfrenta una crisis silenciosa: más de 9.000 personas viven en condición de calle. Detrás de cada rostro hay una historia de abandono, violencia, desempleo o salud mental. Este sitio busca abrir los ojos de la ciudadanía y construir puentes de apoyo.
+    </p>
+    <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\banner.jpg" class="image-banner" alt="Situación de calle en Bogotá" />
+  </section>
+
+  <section>
+    <h2>Historias reales que tocan el corazón</h2>
+
+    <!-- HISTORIA -->
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\maria-exempleadadomestica.jpg" alt="María, ex trabajadora doméstica" />
+      <h3>María, 45 años – Ex trabajadora doméstica</h3>
+      <p>
+        Tras una enfermedad crónica, perdió su empleo y su vivienda. Durante 3 años vivió en la calle, hasta que un centro comunitario le brindó acompañamiento y hoy trabaja en una panadería del centro. “Lo más difícil no es el hambre, es la soledad”, dice.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Andrés, 29 años – Exhabitante de calle.jpeg" alt="Andrés, exhabitante de calle" />
+      <h3>Andrés, 29 años – Exhabitante de calle</h3>
+      <p>
+        Creció sin familia, cayó en las drogas y durmió en el Cartucho. Tras un proceso de rehabilitación liderado por voluntarios, ahora da charlas de prevención en colegios públicos.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Luz y Mateo – Madre e hijo desplazados.jpg" alt="Luz y Mateo, desplazados" />
+      <h3>Luz y Mateo – Madre e hijo desplazados</h3>
+      <p>
+        Víctimas del conflicto armado, llegaron a Bogotá sin redes ni apoyo. Dormían en parques hasta que fueron acogidos por una fundación. Hoy, Luz estudia enfermería y su hijo asiste al colegio.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Luis, 38 años – Exconstructor sin seguridad social.jpeg" alt="Luis, exconstructor sin seguridad social" />
+      <h3>Luis, 38 años – Exconstructor sin seguridad social</h3>
+      <p>
+        Después de un accidente laboral, no pudo seguir trabajando. Hoy colabora con una ONG como ayudante de bodega mientras espera una oportunidad estable.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Expulsada por su orientación sexual.jpg" alt="Diana, expulsada por su orientación sexual" />
+      <h3>Diana, 19 años – Expulsada por su orientación sexual</h3>
+      <p>
+        Su familia la echó de casa por ser lesbiana. Ahora cursa segundo semestre de diseño gráfico gracias a una beca.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Adulto mayor sin pensión.jpg" alt="Raúl, adulto mayor sin pensión" />
+      <h3>Raúl, 67 años – Adulto mayor sin pensión</h3>
+      <p>
+        Trabajó informalmente toda su vida. Al envejecer, perdió su fuerza laboral y no tenía pensión. Fue rescatado por una fundación que ofrece albergue nocturno.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Migrante venezolana.jpg" alt="Camila, migrante venezolana" />
+      <h3>Camila, 27 años – Migrante venezolana</h3>
+      <p>
+        Sin recursos ni documentos, terminó durmiendo con su hijo en la calle. Hoy vende empanadas y alquila una habitación.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Niño habitante de calle.jpg" alt="José, niño habitante de calle" />
+      <h3>José, 12 años – Niño habitante de calle</h3>
+      <p>
+        Vendía dulces y dormía en parques. Una ONG lo rescató y ahora vive en una casa de acogida donde recibe educación.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Víctima de violencia intrafamiliar.jpg" alt="Mónica, víctima de violencia intrafamiliar" />
+      <h3>Mónica, 34 años – Víctima de violencia intrafamiliar</h3>
+      <p>
+        Huyó con sus dos hijas. Hoy vive en una casa refugio mientras cursa un programa técnico de cocina.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Excombatiente reinsertado.jpg" alt="Orlando, excombatiente reinsertado" />
+      <h3>Orlando, 48 años – Excombatiente reinsertado</h3>
+      <p>
+        Tras desmovilizarse, cayó en adicciones. Hoy trabaja como vigilante y apoya procesos comunitarios.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Transgénero rechazada.jpg" alt="Valentina, transgénero rechazada" />
+      <h3>Valentina, 31 años – Transgénero rechazada</h3>
+      <p>
+        Rechazada desde su adolescencia, vivió en la calle. Ahora es activista por los derechos de las personas trans.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Universitario desplazado.jpg" alt="Manuel, universitario desplazado" />
+      <h3>Manuel, 22 años – Universitario desplazado</h3>
+      <p>
+        Desplazado por grupos armados, hoy gracias a una fundación, volvió a estudiar ingeniería.
+      </p>
+    </div>
+
+    <div class="story">
+      <img src="C:\Users\gylma\OneDrive\Escritorio\Pagina web TEP\Pareja mayor desplazada.jpg" alt="Elisa y Fernando, pareja desplazada" />
+      <h3>Elisa y Fernando – Pareja mayor desplazada</h3>
+      <p>
+        Perdieron su finca y ahora viven en un cambuche. Reciben apoyo de voluntarios que les llevan alimentos y abrigo.
+      </p>
+    </div>
+  </section>
+
+  <section class="donation-section">
+    <h2>¿Cómo puedes ayudar?</h2>
+    <p>
+      Puedes marcar la diferencia donando alimentos, cobijas, ropa o haciendo una donación económica. Cada gesto cuenta para recuperar la dignidad de quienes más lo necesitan.
+    </p>
+    <a href="#contacto" class="donate-button">Donar Ahora</a>
+    <a href="https://wa.me/573222529625?text=Hola%2C+quiero+apoyar+la+causa+de+Conciencia+Calle+Bogotá" class="donate-button" target="_blank">Donar vía WhatsApp</a>
+  </section>
+
+  <section id="contacto" class="donation-section">
+    <h2>Contacto para Donaciones</h2>
+    <p>¿Quieres ayudar? Comunícate con nosotros:</p>
+    <p><strong>📞 Teléfono / WhatsApp:</strong> +57 322 252 9625</p>
+    <p><strong>📧 Correo electrónico:</strong> ayuda@concienciacallebogota.org</p>
+    <p><strong>🏢 Fundación:</strong> Conciencia Calle Bogotá</p>
+    <p>Gracias por tu solidaridad. ¡Juntos podemos lograr un cambio real!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conciencia Calle Bogotá — Proyecto educativo sin fines de lucro</p>
+  </footer>
+
+</body>
+</html>
+
